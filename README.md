@@ -22,7 +22,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+Camunda::ExternalTask.find(:all)
+
+Camunda::ProcessInstance.find("2b665c82-2e9a-11e8-9b41-76b52c4c8361")
+
+Camunda::ProcessInstance.find('2b665c82-2e9a-11e8-9b41-76b52c4c8361').get('activity-instances')
+
+Camunda::Task.get(:count)
+```
 
 ## Development
 
