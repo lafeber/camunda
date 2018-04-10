@@ -13,6 +13,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{This will include ActiveResource models for the Camunda API.}
   spec.homepage      = "http://rubygems.org/gems/camunda"
   spec.license       = "MIT"
+  spec.metadata['allowed_push_host'] = 'http://rubygems.org/'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
