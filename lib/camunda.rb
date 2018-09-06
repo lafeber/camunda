@@ -1,4 +1,4 @@
-require 'activesupport'
+require 'activeresource'
 
 module Camunda
 end
