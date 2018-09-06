@@ -1,3 +1,5 @@
+require 'activesupport'
+
 module Camunda
 end
 
