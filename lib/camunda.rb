@@ -1,3 +1,5 @@
+require 'activeresource'
+
 module Camunda
 end
 
